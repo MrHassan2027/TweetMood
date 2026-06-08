@@ -7,8 +7,9 @@ Collects tweets on any keyword/hashtag using the Twitter API v2, classifies each
 
 ## Quick Start
 ```bash
-git clone https://github.com/yourusername/TweetMood
-pip install -r requirements.txt
+git clone https://github.com/MrHassan2027/TweetMood
+cd TweetMood
+pip install -e .
 cp .env.example .env  # add Twitter Bearer Token
 
 python collect.py --query "#AI" --limit 500    # collect tweets
